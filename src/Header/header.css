@@ -1,0 +1,47 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+.displayContianer {
+    display: flex;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: center;
+}
+.chooseInput {
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.chooseLabel {
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.searchInput {
+    width: 200px;
+}
+
+.searchLabel {
+    width: 200px;
+}
+.button {
+    width: 200px;
+}
+
+.listOrder {
+    list-style-type: decimal;
+}
+
+.header {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
